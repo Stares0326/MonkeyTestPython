@@ -1,0 +1,5 @@
+1.adb devices
+    * 可能出现emulator-5554 offline模拟器....5555
+    # 找到这个进程 netstat -ano | findstr "5555"
+    # tasklist |findstr "进程id号"
+       # taskkill /f /t /im "进程id或者进程名称"
